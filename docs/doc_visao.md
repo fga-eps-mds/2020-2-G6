@@ -3,9 +3,12 @@
 |Data|Versão|Descrição|Autor|
 |-|-|-|-|
 |01/03/2021|0.1|Adicionado template e tópicos 1 e 2|Cristian e Mariana|
+<<<<<<< HEAD
 |03/03/2021| 0.1 | Perfil dos Usuários, Envolvidos e Mercado | @erteduarda|
 |04/03/2021|0.1|Adicionado template e tópicos 5 e 6| Lyra e Cibele|
 
+=======
+>>>>>>> 0c3760318c3a4f92ef1d4123f8248b4bcbed44fa
 
 ### Índice Analítico
 - [Documento de visão](#documento-de-visão)
@@ -18,6 +21,7 @@
     - [2.1. Oportunidade de Negócio](#21-oportunidade-de-negócio)
     - [2.2. Problema a Ser Resolvido](#22-problema-a-ser-resolvido)
     - [2.3. Posicionamento do Produto](#23-posicionamento-do-produto)
+<<<<<<< HEAD
   - [5. Recursos do produto](#5-recursos-do-produto)
     - [5.1. Perfil do deputado](#51-perfil-do-deputado)
     - [5.2. Campo de busca](#52-campo-de-busca)
@@ -41,6 +45,8 @@
     - [6.3. Restrições de Plataforma](#63-restrições-de-plataforma)
     - [6.4. Restrições de Uso](#64-restrições-de-uso)
 
+=======
+>>>>>>> 0c3760318c3a4f92ef1d4123f8248b4bcbed44fa
 
 
 
@@ -72,6 +78,7 @@ Atualmente, muitas pessoas possuem dificuldade em acompanhar políticos devido a
 
 ### 2.3. Posicionamento do Produto
 Para quem é interessado em saber o que está acontecendo com diversos parlamentares e quer algo simples e organizado sobre variadas informações. Ao contrário de sites de transparência do governo (brasil.io, parlametria e ranking dos deputados), o `Parlamentaqui` centraliza e faz analise sobre diversos dados do parlamentar desejado para expor ao cidadão eleitor todas as informações relevantes deste.
+<<<<<<< HEAD
 
 
 
@@ -215,3 +222,5 @@ A linguagem utilizada será `python` com framework `flask` para o backend e `rea
 Será um site desenvolvido para Web.
 ### 6.4. Restrições de Uso
 É necessário acesso a uma `conexão estável` à internet e `navegadores` que sejam `compatíveis` com o site. 
+=======
+>>>>>>> 0c3760318c3a4f92ef1d4123f8248b4bcbed44fa
