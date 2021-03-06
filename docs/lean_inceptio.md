@@ -56,63 +56,6 @@ Todo procedimento do lean inception foi realizado seguindo conforme é explicado
 |---|
 |**Apelido:** Konan o pacifico.<br/>**Perfil:** 22 anos, solteiro, amigável, professor de filosofia.<br/>**Comportamento:** competitivo, inteligente, comprometido, assíduo em páginas relacionadas a política, escritor de páginas políticas.<br/>**Necessidades:** Procurar conteúdos para falar nas páginas em que participa, embasar bem seus argumentos em dados reais.|<br/>
 
-### Funcionalidades
-| Funcionalidade |
-| ------ |
-|1- Ter acesso a uma home com as últimas interações de políticos nas |redes sociais / perfis de politicos e atividades relacionadas (ordenação de acordo com atividades recentes);
-|2 -Campo de busca para encontrar perfis específicos de políticos, ou |partidos
-|3 - Perfil com as análises de social media relacionadas a cada |político.
-|4 - Mostrar se o parlamentar, de acordo com os votos, é aliado ou |oposição ao governo federal
-|5 - Mostrar notícias relacionadas ao parlamentar em seu perfil|
-|6 - Mostrar tweets recentes do parlamentar em seu perfil ou sobre |temas específicos
-|7 - Aba que visualiza processos pendentes dos políticos, se ele é ou |já foi réu, histórico de justiça
-|8- Projetos que o parlamentar propôs, se existem|
-|9- Cargos que o parlamentar ocupa, se existem|
-|10- Qual tipo de projeto ele mais se envolve|
-|11- Projetos votados recentemente, com informações sobre os projetos.|
-|12- Listagem, filtros e busca das votações de projetos de lei|
-|13- Monitoramento de gastos do deputado (gabinete, voos, etc)|
-|14- Crescimento de patrimônio de deputado|
-|15- Histórico de cargos dos parlamentares|
-|16- Box de curiosidades [Deputado não votou em X sessões, Deputado gastou 30% a mais esse ano, deputado 100% alinhado com o partido, deputado teve um voto recente que não vai de acordo com o perfil, etc]|
-|17- Análise do perfil de voto do deputado para descobrir quão alinhado ao partido o deputado é|
-|18- Compartilhamento inteligente.|
-|19- Palavra que mais se relaciona com o candidato a partir das notícias|
-|20- Fake news recentes sobre este político|
-|21 -  "Aba" de relacionados de cada politico (partido)|
-|22 - Perfil do deputado|
-
-
-### Revisão técnica, de negócio e de UX
-
-![Revisão técnica, de negócio e de UX](./img/lean_inception/lean_1.png)
-
-
-| Funcionalidade | Nível de confiança | Esforço | Valor UX | Valor do negócio|
-| ------------------ |:------------------:|:-------:|:--------:|:----------------:|
-| 1- Ter acesso a uma home com as últimas interações de políticos nas redes sociais / perfis de politicos e atividades relacionadas (ordenação de acordo com atividades recentes); |       Amarelo      |   EEE   |   ♡ ♡ ♡  |        $$$       |
-| 2 -Campo de busca para encontrar perfis específicos de políticos, ou partidos                                                                                                    |        Verde       |    E    |   ♡ ♡ ♡  |         $        |
-| 3 - Perfil com as análises de social media relacionadas a cada político.                                                                                                         |      Vermelho      |   EEE   |   ♡ ♡ ♡  |        $$$       |
-| 4 - Mostrar se o parlamentar, de acordo com os votos, é aliado ou oposição ao governo federal                                                                                    |      Vermelho      |   EEE   |    ♡ ♡   |         $        |
-| 5 - Mostrar notícias relacionadas ao parlamentar em seu perfil                                                                                                                   |      Vermelho      |    EE   |   ♡ ♡ ♡  |        $$$       |
-| 6 - Mostrar tweets recentes do parlamentar em seu perfil ou sobre temas específicos                                                                                              |       Amarelo      |   EEE   |     ♡    |        $$        |
-| 7 - Aba que visualiza processos pendentes dos políticos, se ele é ou já foi réu, histórico de justiça                                                                            |      Vermelho      |   EEE   |   ♡ ♡ ♡  |        $$$       |
-| 8- Projetos que o parlamentar propôs, se existem                                                                                                                                 |        Verde       |    EE   |   ♡ ♡ ♡  |        $$        |
-| 9- Cargos que o parlamentar ocupa, se existem                                                                                                                                    |      Vermelho      |   EEE   |     ♡    |         $        |
-| 10- Qual tipo de projeto ele mais se envolve                                                                                                                                     |      Vermelho      |   EEE   |    ♡ ♡   |        $$        |
-| 11- Projetos votados recentemente, com informações sobre os projetos em seu perfil.                                                                                              |        Verde       |    EE   |    ♡ ♡   |        $$$       |
-| 12- Listagem, filtros e busca das votações de projetos de lei                                                                                                                    |       Amarelo      |    EE   |   ♡ ♡ ♡  |         $        |
-| 13- Monitoramento de gastos do deputado (gabinete, voos, etc)                                                                                                                    |       Amarelo      |    EE   |   ♡ ♡ ♡  |        $$        |
-| 14- Crescimento de patrimônio de deputado                                                                                                                                        |      Vermelho      |    E    |   ♡ ♡ ♡  |        $$$       |
-| 15- Histórico de cargos dos parlamentares                                                                                                                                                                  | Vermelho | EEE |   ♡   |  $  |
-| 16- Box de curiosidades [Deputado não vota há X sessões, Deputado gastou 30% a mais esse ano, deputado 100% alinhado com o partido, deputado teve um voto recente que não vai de acordo com o perfil, etc] | Vermelho | EEE | ♡ ♡ ♡ |  $$ |
-| 17- Análise do perfil de voto do deputado para descobrir quão alinhado ao partido o deputado é                                                                                                             | Vermelho |  EE |  ♡ ♡  |  $$ |
-| 18- Compartilhamento inteligente.                                                                                                                                                                          |   Verde  |  E  | ♡ ♡ ♡ | $$$ |
-| 19- Palavra que mais se relaciona com o candidato a partir das notícias                                                                                                                                    | Vermelho | EEE |   ♡   |  $  |
-| 20- Fake news recentes sobre este político                                                                                                                                                                 | Vermelho | EEE |  ♡ ♡  |  $  |
-| 21 -  "Aba" de relacionados de cada politico (partido)                                                                                                                                                     |   Verde  |  EE |  ♡ ♡  | $$$ |
-| 22 - Perfil do deputado                                                                                                                                                                                    |   Verde  |  E  | ♡ ♡ ♡ | $$$ |
-
 ### Jornadas
 
 - Jornada(s) Prioritária(s): 07, 03, 06	
@@ -206,6 +149,64 @@ Todo procedimento do lean inception foi realizado seguindo conforme é explicado
 | Decide que na próxima eleição vai procurar um deputado que não tenha rabo preso.                                       | 2 -Campo de busca para encontrar perfis específicos de políticos, ou partidos                                                                         |
 
 
+### Funcionalidades
+| Funcionalidade |
+| ------ |
+|1- Ter acesso a uma home com as últimas interações de políticos nas |redes sociais / perfis de politicos e atividades relacionadas (ordenação de acordo com atividades recentes);
+|2 -Campo de busca para encontrar perfis específicos de políticos, ou |partidos
+|3 - Perfil com as análises de social media relacionadas a cada |político.
+|4 - Mostrar se o parlamentar, de acordo com os votos, é aliado ou |oposição ao governo federal
+|5 - Mostrar notícias relacionadas ao parlamentar em seu perfil|
+|6 - Mostrar tweets recentes do parlamentar em seu perfil ou sobre |temas específicos
+|7 - Aba que visualiza processos pendentes dos políticos, se ele é ou |já foi réu, histórico de justiça
+|8- Projetos que o parlamentar propôs, se existem|
+|9- Cargos que o parlamentar ocupa, se existem|
+|10- Qual tipo de projeto ele mais se envolve|
+|11- Projetos votados recentemente, com informações sobre os projetos.|
+|12- Listagem, filtros e busca das votações de projetos de lei|
+|13- Monitoramento de gastos do deputado (gabinete, voos, etc)|
+|14- Crescimento de patrimônio de deputado|
+|15- Histórico de cargos dos parlamentares|
+|16- Box de curiosidades [Deputado não votou em X sessões, Deputado gastou 30% a mais esse ano, deputado 100% alinhado com o partido, deputado teve um voto recente que não vai de acordo com o perfil, etc]|
+|17- Análise do perfil de voto do deputado para descobrir quão alinhado ao partido o deputado é|
+|18- Compartilhamento inteligente.|
+|19- Palavra que mais se relaciona com o candidato a partir das notícias|
+|20- Fake news recentes sobre este político|
+|21 -  "Aba" de relacionados de cada politico (partido)|
+|22 - Perfil do deputado|
+
+
+### Revisão técnica, de negócio e de UX
+
+![Revisão técnica, de negócio e de UX](./img/lean_inception/lean_1.png)
+
+
+| Funcionalidade | Nível de confiança | Esforço | Valor UX | Valor do negócio|
+| ------------------ |:------------------:|:-------:|:--------:|:----------------:|
+| 1- Ter acesso a uma home com as últimas interações de políticos nas redes sociais / perfis de politicos e atividades relacionadas (ordenação de acordo com atividades recentes); |       Amarelo      |   EEE   |   ♡ ♡ ♡  |        $$$       |
+| 2 -Campo de busca para encontrar perfis específicos de políticos, ou partidos                                                                                                    |        Verde       |    E    |   ♡ ♡ ♡  |         $        |
+| 3 - Perfil com as análises de social media relacionadas a cada político.                                                                                                         |      Vermelho      |   EEE   |   ♡ ♡ ♡  |        $$$       |
+| 4 - Mostrar se o parlamentar, de acordo com os votos, é aliado ou oposição ao governo federal                                                                                    |      Vermelho      |   EEE   |    ♡ ♡   |         $        |
+| 5 - Mostrar notícias relacionadas ao parlamentar em seu perfil                                                                                                                   |      Vermelho      |    EE   |   ♡ ♡ ♡  |        $$$       |
+| 6 - Mostrar tweets recentes do parlamentar em seu perfil ou sobre temas específicos                                                                                              |       Amarelo      |   EEE   |     ♡    |        $$        |
+| 7 - Aba que visualiza processos pendentes dos políticos, se ele é ou já foi réu, histórico de justiça                                                                            |      Vermelho      |   EEE   |   ♡ ♡ ♡  |        $$$       |
+| 8- Projetos que o parlamentar propôs, se existem                                                                                                                                 |        Verde       |    EE   |   ♡ ♡ ♡  |        $$        |
+| 9- Cargos que o parlamentar ocupa, se existem                                                                                                                                    |      Vermelho      |   EEE   |     ♡    |         $        |
+| 10- Qual tipo de projeto ele mais se envolve                                                                                                                                     |      Vermelho      |   EEE   |    ♡ ♡   |        $$        |
+| 11- Projetos votados recentemente, com informações sobre os projetos em seu perfil.                                                                                              |        Verde       |    EE   |    ♡ ♡   |        $$$       |
+| 12- Listagem, filtros e busca das votações de projetos de lei                                                                                                                    |       Amarelo      |    EE   |   ♡ ♡ ♡  |         $        |
+| 13- Monitoramento de gastos do deputado (gabinete, voos, etc)                                                                                                                    |       Amarelo      |    EE   |   ♡ ♡ ♡  |        $$        |
+| 14- Crescimento de patrimônio de deputado                                                                                                                                        |      Vermelho      |    E    |   ♡ ♡ ♡  |        $$$       |
+| 15- Histórico de cargos dos parlamentares                                                                                                                                                                  | Vermelho | EEE |   ♡   |  $  |
+| 16- Box de curiosidades [Deputado não vota há X sessões, Deputado gastou 30% a mais esse ano, deputado 100% alinhado com o partido, deputado teve um voto recente que não vai de acordo com o perfil, etc] | Vermelho | EEE | ♡ ♡ ♡ |  $$ |
+| 17- Análise do perfil de voto do deputado para descobrir quão alinhado ao partido o deputado é                                                                                                             | Vermelho |  EE |  ♡ ♡  |  $$ |
+| 18- Compartilhamento inteligente.                                                                                                                                                                          |   Verde  |  E  | ♡ ♡ ♡ | $$$ |
+| 19- Palavra que mais se relaciona com o candidato a partir das notícias                                                                                                                                    | Vermelho | EEE |   ♡   |  $  |
+| 20- Fake news recentes sobre este político                                                                                                                                                                 | Vermelho | EEE |  ♡ ♡  |  $  |
+| 21 -  "Aba" de relacionados de cada politico (partido)                                                                                                                                                     |   Verde  |  EE |  ♡ ♡  | $$$ |
+| 22 - Perfil do deputado                                                                                                                                                                                    |   Verde  |  E  | ♡ ♡ ♡ | $$$ |
+
+
 ### Sequenciador
 
 - Regra 1: Uma onda pode conter, no máximo, três cartões.
@@ -219,7 +220,7 @@ Todo procedimento do lean inception foi realizado seguindo conforme é explicado
 - Regra 5: A soma de valor dos cartões não pode ser menos de quatro “$” e quatro corações.
 
 - Regra 6: Se um cartão depende de outro, esse outro deve estar em alguma onda anterior.						
-#### MVP 1
+#### MVP
 
 | Onda 01 |  |  |  |  |
 | -- | -- | -- | -- | -- |
@@ -237,7 +238,7 @@ Todo procedimento do lean inception foi realizado seguindo conforme é explicado
 | 5 - Mostrar notícias relacionadas ao parlamentar em seu perfil | Vermelho | EE | ♡ ♡ ♡ | $$$ |
 | RESULTADO |  |  |  |  |
 
-#### MVP 2
+#### Incremento 1
 
 | Onda 03 |  |  |  |  |
 | -- | -- | -- | -- | -- |
@@ -248,7 +249,7 @@ Todo procedimento do lean inception foi realizado seguindo conforme é explicado
 | RESULTADO |  |  |  |  |
 
 
-#### MVP 3
+#### Incremento 2
 
 | Onda 04 |  |  |  |  |
 | -- | -- | -- | -- | -- |
@@ -263,7 +264,7 @@ Todo procedimento do lean inception foi realizado seguindo conforme é explicado
 | 14- Crescimento de patrimônio de deputado | Vermelho | E | ♡ ♡ ♡ | $$$ |
 | RESULTADO |  |  |  |  |
 
-#### MVP 4
+#### Incremento 3
 
 | Onda 06 |  |  |  |  |
 | -- | -- | -- | -- | -- |
@@ -272,7 +273,7 @@ Todo procedimento do lean inception foi realizado seguindo conforme é explicado
 | 10- Qual tipo de projeto ele mais se envolve | Vermelho | EEE | ♡ ♡ | $$ |
 | RESULTADO |  |  |  |  |
 
-#### MVP 5
+#### Incremento 4
 
 | Onda 07 |  |  |  |  |
 | -- | -- | -- | -- | -- |
@@ -280,7 +281,7 @@ Todo procedimento do lean inception foi realizado seguindo conforme é explicado
 | 7 - Aba que visualiza processos pendentes dos políticos, se ele é ou já foi réu, histórico de justiça | Vermelho | EEE | ♡ ♡ ♡ | $$$ |
 | RESULTADO |  |  |  |  |
 
-#### MVP 6
+#### Incremento 5
 
 | Onda 08 |  |  |  |  |
 | -- | -- | -- | -- | -- |
