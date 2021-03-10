@@ -6,7 +6,8 @@
 | 03/03/2021 | 0.2    | Adicionado template e tópico 3                      | Eduarda            |
 | 04/03/2021 | 0.3    | Adicionado template e tópicos 5 e 6                 | Lyra e Cibele      |
 | 09/03/2021 | 0.4    | Corrigindo conflito, adicionando índice do tópico 3 | Cibele e Lyra      |
-| 09/03/2021 | 0.5    | Adicionando tópico 4                                | Rafael             |
+| 09/03/2021 | 0.5    | Adicionado tópico 4                                 | Rafael             |
+| 09/03/2021 | 0.5.1. | Corrigindo tópico 4                                 | Rafael             |
 
 ### Índice Analítico
 
@@ -24,7 +25,9 @@
     - [3.1. Definição dos Stakeholders](#31-definição-dos-stakeholders)
       - [3.1.1. Usuários finais da aplicação](#311-usuários-finais-da-aplicação)
       - [3.1.2. Desenvolvedores](#312-desenvolvedores)
-  - [4. Definição do Produto](#4-definição-do-produto) -[4.1. Perspectiva do produto](#41-perspectiva-do-produto) -[4.2. Resumo dos recursos](#42-resumo-dos-recursos)
+  - [4. Definição do Produto](#4-definição-do-produto)
+    - [4.1. Perspectiva do produto](#41-perspectiva-do-produto)
+    - [4.2. Resumo dos recursos](#42-resumo-dos-recursos)
   - [5. Recursos do produto](#5-recursos-do-produto)
     - [5.1. Perfil do deputado](#51-perfil-do-deputado)
     - [5.2. Campo de busca](#52-campo-de-busca)
@@ -112,11 +115,11 @@ Para quem é interessado em saber o que está acontecendo com diversos parlament
 
 O “parlamentaqui” é um site que reúne todas as informações sobre os candidatos. Ele abrangerá uma quantidade enorme de informações sobre cada candidato, sendo um site de fácil acesso e simples de usar.
 
-## 4.1. Perspectiva do produto
+### 4.1. Perspectiva do produto
 
 O produto tem como principal característica reunir todas as informações sobre o candidato em um só lugar, deixando o acesso à informação mais rápido e eficiente.
 
-## 4.2. Resumo dos recursos
+### 4.2. Resumo dos recursos
 
 O site terá uma home, perfis de candidatos, aba de busca, tweets relevantes dos candidatos, listas de perfis, compartilhamento inteligente, etc.
 
