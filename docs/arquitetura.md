@@ -118,6 +118,92 @@ O "Dados abertura camara" é a fronteira responsável por realizar o processo de
 
 ![Noticias](./img/dados/noticias.png)
 
+### 5.4 Dicionário de dados Cross Data
+
+**Entidade:** Deputado
+
+| **Atributo** | **Dominio** | **Descrição** | **Restrição** |
+|-|-|-|-|
+| idDeputado | int | Primary key | Not null |
+| nome | string | Nome do deputado | Not null |
+| urlFoto | string | Url da foto do deputado |  |
+| idLegislaturaInicial | int | Id da legislatura do deputado inicial | Not null |
+| idLegislaturaFinal" | int | Id da legislatura do deputado final |  |
+| anoLegislaturaInicial | int | Ano da legislatura do deputado inicial | Not null |
+| anoLegislaturaFinal | int | Ano da legislatura do deputado final |  |
+| dataUltimaAtivdade | date | Data da ultima  |  |
+| nomeCompleto | string | Nome completo deputado |  |
+| siglaSexo | string | Sexo |  |
+| email | string | Email |  |
+| dataNascimento | date | Data de nascimento |  |
+| dataFalecimento | date | Data de Falecimento |  |
+| UF | string | UF |  |
+| partido | string | Sigla do partido |  |
+| instagram | string | User do instagram |  |
+| twitter | string | User do twitter |  |
+| facebook | string | User do facebook |  |
+
+**Entidade:** GastosDeputado
+
+| **Atributo** | **Dominio** | **Descrição** | **Restrição** |
+|-|-|-|-|
+| idDeputado | int | Primary key | Not null |
+| ano | int | Ano |  |
+| mes | int | Mes |  |
+| tipoDespesa | string | Descrição da despesa |  |
+| tipoDocumento | date | Tipo do documento |  |
+| dataDocumento | date | Data do documento |  |
+| numDocumento | string | Primary key | Not null |
+| valorDocumento | int | Valor do documento |  |
+| urlDocumento | string | Link para o documento |  |
+| nomeFornecedor | string | Nome do fornecedor |  |
+| cnpjCpfFornecedor | string | Cpf ou CNPJ do fonecedor |  |
+| valorLiquido | int | Valor |  |
+| valorGlosa | int | Valor |  |
+| numRessarcimento | string | Numero do resarcimento |  |
+| codLote | int | Codigo do lote |  |
+| parcela | string | Primary key | Not null |
+
+**Entidade:** VotoParlamentar
+
+| **Atributo** | **Dominio** | **Descrição** | **Restrição** |
+|-|-|-|-|
+| idDeputado | int | Primary key | Not null |
+| idVotacao | string | Primary key | Not null |
+| deputado_nome | string | Nome do deputado |  |
+| deputado_siglaPartido | string | Sigla partido |  |
+| deputado_siglaUf | string | Uf partido |  |
+| deputado_idLegislatura | string | Id da legislatura |  |
+| dataHoraVoto | date | Data do voto |  |
+| voto | string | Voto |  |
+| votouDeAcordo | string | Votou de acordo com o partido |  |
+| proposicao_id | string | Id da proposição |  |
+| proposicao_ementa | string | Texto da proposição |  |
+| proposicao_titulo | string | Titulo da praposição |  |
+
+**Entidade:** Noticias
+
+| **Atributo** | **Dominio** | **Descrição** | **Restrição** |
+|-|-|-|-|
+| “idDeputado”: “123123” | int |  |  |
+| “iNoticia” | int | Primary key | Not null |
+| “link” | string | Link da notica |  |
+| “foto” | string | Url da imagem |  |
+| “titulo” | string | Titulo da noticia |  |
+| “Resumo” | string | Resumo da noticia |  |
+| “NomeDeputado” | string | Nome deputado |  |
+| “dataAlteração” | date | Data da alteração |  |
+| “source” | string | Source |  |
+
+**Entidade:** Twitter
+
+| ***Atributo*** | **Dominio** | **Descrição** | **Restrição** |
+|-|-|-|-|
+| “tweetid” | int | Primary key | Not null |
+| “idDeputado” | int | Id do deputado |  |
+| “name” | string | Nome do deputado |  |
+| “username” | string | Username do deputado |  |
+| “data”,”12/1212” | date | data do tweet |  |
 
 ### Referências
 
@@ -132,7 +218,6 @@ Newman, Sam. Building Microservices.
 ETL (extrair, transformar e carregar)
 
 - https://docs.microsoft.com/pt-br/azure/architecture/data-guide/relational-data/etl
-
 
 Símbolos e notação de diagramas entidade-relacionamento:
 
