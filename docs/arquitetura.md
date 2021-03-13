@@ -67,6 +67,12 @@ Para mais informações vá no documento redigido a partir do [lean inception](.
 - O deputado possuir a rede social do twiter.
 - As noticias com o deputado citarem seu nome em algum trecho da noticia.
 
+## Diagrama de pacotes
+
+![Noticias](./img/dados/diagrama_pacote.png)
+
+Acima é demonstrada a implementação geral dos pacotes do projeto Parlamentaqui.
+
 ## 4. Arquitetura dos Serviços e visão de Implementação
 
 ### 4.1 Visão Geral
