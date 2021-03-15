@@ -6,7 +6,8 @@ O guia de estilo visual orienta a unidade e a coerência visual na apresentaçã
 | Data       | Versão | Descrição                                           | Autor              |
 | ---------- | ------ | --------------------------------------------------- | ------------------ |
 | 11/03/2021 | 0.1    | Adicionado template               | Gabriel Albino |
-| 11/03/2021 | 0.2    | Adicionado Objetivos, Cores e Layout<br>Iniciado Tipografia e Protótipos |Gabriel Albino|
+| 11/03/2021 | 0.2    | Adicionado Objetivos, Cores e Layout<br>Iniciado Tipografia |Gabriel Albino|
+| 15/03/2021 | 1.0    | Adicionado Tipografia e marca |Gabriel Albino|
 
 ## Objetivo
 Esse documento tem como objetivo demonstrar os elementos de interfaces, servindo de ponto de partida para garantir um serviço digital consistente, independente do seu alcance, número de páginas ou micro serviços.
@@ -22,16 +23,16 @@ Esta paleta inclui as cores primárias e secundárias do **Parlamentaqui**. As c
 #### 1.1 Cores Primárias
 As cores primáras se baseam em variações das cores verde e marrom. O verde representa a principal cor da bandeira Brasileira, servido para abraçar a nacionalidade e o representar o país. O Marrom representa a sujeira causada pela currupção, presente em diversas formas diferentes e em diferentes camadas da política.
 
-|Hexadecimal|RGB|Nome|
-|-|-|-|
-|#A4D4B4|164,212,180|Verde Musgo|
-|#3B1C32|59,28,50|Marrom Lívido|
-|#2C2229|44,34,41|Marrom Tempestade|
-|#D2FFE1|210,255,255|Menta Nevado|
+|Hexadecimal|RGB|Nome|Uso|
+|-|-|-|-|
+|#A4D4B4|164,212,180|Verde Musgo|Fundo de elementos específicos de cada página|
+|#3B1C32|59,28,50|Marrom Lívido|Fundo de componentes transversais e detalhes|
+|#2C2229|44,34,41|Marrom Tempestade|Detalhes diversos|
+|#D2FFE1|210,255,255|Menta Nevado|Detalhes diversos|
 
 ![Cores primárias](./img/style_guide/cores_primarias.png)
 
-#### 1.1 Cores Secundárias
+#### 1.2 Cores Secundárias
 Estas cores devem ser usadas para textos como parágrafos e títulos. E também usadas para destacar alguma seção da página.
 
 
@@ -43,8 +44,19 @@ Estas cores devem ser usadas para textos como parágrafos e títulos. E também 
 |#DADADA|218,218,218|Cinza Alto|
 |#FFFFFF|255,255,255|Branco|
 
+Uso conforme seção 1.3.
+
 ![Cores secundárias](./img/style_guide/cores_secundarias.png)
 
+#### 1.3 Contrastes
+As cores de texto para cada fundo devem ser utilizadas conforme a relação abaixo.
+
+
+![](./img/style_guide/contrast_5.png)
+![](./img/style_guide/contrast_1.png)
+![](./img/style_guide/contrast_2.png)
+![](./img/style_guide/contrast_3.png)
+![](./img/style_guide/contrast_4.png)
 
 ### 2. Layout
 Foram estabelecidas algumas diretrizes para garantir um bom comportamento do **Parlamentaqui** em todos os dispositivos.
@@ -74,24 +86,26 @@ Todas as páginas do portal deve seguir a seguinte estrutura
 
 ### 3. Tipografia
 A Fonte escolhida para o **Parlamentaqui** foi a Open Sans. E é a família de fonte usada em conteúdos de todo o site. Para títulos, foi escolhida a Montserrat. Ambas as fontes encontram-se no Google Fontes, garantindo qualidade e velocidade no carregamento.
+A proporção de fontes utilizadas foi definida utilizando a escala "Minor Third"
+![](./img/style_guide/fonts.png)
+Na imagem acima é possível identificar os títulos de h1 a h5 (respectivamente, variando de 2.488rem a 1.2rem na fonte Montserrat).
 
-[INSERIR IMAGEM DA FONTE AQUI]
+Para os demais elementos, deve ser utilizada a fonte Open sans tamanho 16px ou 13.33px em caso de texto pequeno, conforme imagem abaixo.
 
-### 4. Elementos da UI
-Veremos os elementos até então utilizados na UI do **Parlamentaqui**, como ícones, botões e itens transversais (cabeçalho, rodapé, migalhas de pão). Este documento serve como guia para definir bons modos de aplicação, preservando sua legibilidade e estrutura dentro do portal.
+![](./img/style_guide/fonts_text.png)
 
-#### 4.1 Cabeçalho
+### 4. Marca
+A logo do projeto representa as cúpulas do congresso nacional de Brasília, a arte e o processo encontram-se abaixo
 
-#### 4.2 Rodapé
+#### 4.1 Logo
+![](./img/style_guide/logo_final.png)
+#### 4.2 Processo
+![](./img/style_guide/logo_1.png)
+![](./img/style_guide/logo_2.png)
+![](./img/style_guide/logo_3.png)
+![](./img/style_guide/logo_4.png)
+![](./img/style_guide/logo_5.png)
+![](./img/style_guide/logo_6.png)
+![](./img/style_guide/logo_7.png)
+![](./img/style_guide/logo_final.png)
 
-#### 4.3 Migalhas de pão
-
-#### 4.4 Frameworks
-
-## Protótipos de alta fidelidade
-
-### 1. Home (v0.1)
-
-### 2. Perfil do deputado (v0.1)
-
-### 3. Resultados da busca (v0.1)
