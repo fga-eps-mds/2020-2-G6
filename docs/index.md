@@ -6,14 +6,14 @@ Este repositorio tem como objetivo armazenar a documentação das disciplinas EP
 
 | Nome | Conta Github |
 |--|--|
-| Cibele Freitas Goudinho       | CibeleG |
-| Cristian Furtado              | csafurtado |
-| Eduarda Rodrigues Tavares     | erteduarda |
-| Felipe Campos                 | fepas |
-| Gabriel Batista Albino Silva  | gabrielalbino |
-| Helena Bretas Goulart         | helenagoulart |
-| João Pedro Lyra               | jplyra |
-| Lucas Machado                 | lmmLucasMachado |
-| Mariana Oliveira Pires do Rio | MarianaPRio |
-| Rafael Fernandes Amancio      | Rafael-gc |
+| Cibele Freitas Goudinho       | [@CibeleG](https://github.com/CibeleG) |
+| Cristian Furtado              | [@csafurtado](https://github.com/csafurtado) |
+| Eduarda Rodrigues Tavares     | [@erteduarda](https://github.com/erteduarda) |
+| Felipe Campos                 | [@fepas](https://github.com/fepas) |
+| Gabriel Batista Albino Silva  | [@gabrielalbino](https://github.com/gabrielalbino) |
+| Helena Bretas Goulart         | [@helenagoulart](https://github.com/helenagoulart) |
+| João Pedro Lyra               | [@jplyra](https://github.com/jplyra) |
+| Lucas Machado                 | [@lmmLucasMachado](https://github.com/lmmLucasMachado) |
+| Mariana Oliveira Pires do Rio | [@MarianaPRio](https://github.com/MarianaPRio) |
+| Rafael Fernandes Amancio      | [@Rafael-gc](https://github.com/Rafael-gc) |
 
