@@ -6,7 +6,7 @@ O guia de estilo visual orienta a unidade e a coerência visual na apresentaçã
 | Data       | Versão | Descrição                                           | Autor              |
 | ---------- | ------ | --------------------------------------------------- | ------------------ |
 | 11/03/2021 | 0.1    | Adicionado template               | Gabriel Albino |
-| 11/03/2021 | 0.2    | Adicionado Objetivos, Cores e Layout<br>Iniciado Tipografia e Protótipos |
+| 11/03/2021 | 0.2    | Adicionado Objetivos, Cores e Layout<br>Iniciado Tipografia e Protótipos |Gabriel Albino|
 
 ## Objetivo
 Esse documento tem como objetivo demonstrar os elementos de interfaces, servindo de ponto de partida para garantir um serviço digital consistente, independente do seu alcance, número de páginas ou micro serviços.
