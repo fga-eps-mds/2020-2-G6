@@ -1,6 +1,33 @@
-# Documentação
+# Entenda o contexto
 
-Este repositorio tem como objetivo armazenar a documentação das disciplinas EPS/MDS.
+Este é um repositório voltado para a documentação do projeto Parlamentaqui, pertencente ao desenvolvimento das disciplinas Métodos de Desenvolvimento de Software e Engenharia do Produto de Software, na Faculdade do Gama da Universidade de Brasília (FGA - Unb) no semestre 2020/2.
+
+# Quem somos
+
+Este projeto é desenvolvido por: 
+
+### Equipe de gerência, composta por alunos de Engenharia do Produto de Software
+| Nome           | Função                |
+|----------------|-----------------------|
+| Felipe Campos  | Devops                |
+| Gabriel Albino | Product Owner         |
+| Helena Bretas  | Scrum master          |
+| Lucas Machado  | Arquiteto de software |
+### Equipe de desenvolvimento, composta por alunos de Métodos de Desenvolvimento de Software
+
+| Nome              | Função         |
+|-------------------|----------------|
+| Cibele Freitas    | Desenvolvedora |
+| Cristian Furtado  | Desenvolvedor  |
+| Eduarda Rodrigues | Desenvolvedora |
+| Mariana Oliveira  | Desenvolvedora |
+| Rafael Fernandes  | Desenvolvedor  |
+
+## Aviso
+
+Este projeto segue as diretrizes da comunidade de software livre do GitHub.  
+
+# Guia de execução
 
 ## Usando o mkdocs:
 
