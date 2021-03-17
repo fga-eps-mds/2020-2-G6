@@ -1,5 +1,11 @@
 # Documeto de Arquitetura
 
+
+| Data       | Versão | Descrição                                           | Autor              |
+| ---------- | ------ | --------------------------------------------------- | ------------------ |
+| 01/03/2021 | 1.0    | Criação do documento de arquitetura                 |    Lucas Machado   |
+| 13/03/2021 | 1.1    | Adicionando dicionário de dados                     |    Lucas Machado   |
+
 ## 1. Introdução
 
 ### 1.1 Objetivo 
@@ -165,7 +171,7 @@ O "Dados abertura camara" é a fronteira responsável por realizar o processo de
 | nomeFornecedor | string | Nome do fornecedor |  |
 | cnpjCpfFornecedor | string | Cpf ou CNPJ do fonecedor |  |
 | valorLiquido | int | Valor |  |
-| valorGlosa | int | Valor |  |
+| valorGlosa | int | Multa de contrato |  |
 | numRessarcimento | string | Numero do resarcimento |  |
 | codLote | int | Codigo do lote |  |
 | parcela | string | Primary key | Not null |
