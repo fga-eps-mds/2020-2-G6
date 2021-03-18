@@ -1,3 +1,14 @@
+# Aviso
+
+Os dados desse repositorios foram tranferidos para uma organização onde esta contido a documentação e também o projeto [Parlamentaqui](https://github.com/parlamentaqui).
+
+
+A organização onde o projeto se encontra pode ser encontrada [clicando aqui](https://github.com/parlamentaqui).
+
+A documentação do projeto pode ser encontrada [clicando aqui](https://github.com/parlamentaqui/documentation).
+
+**obs:** o link da lateral referencia a documentação na nova organização.
+
 # Entenda o contexto
 
 Este é um repositório voltado para a documentação do projeto Parlamentaqui, pertencente ao desenvolvimento das disciplinas Métodos de Desenvolvimento de Software e Engenharia do Produto de Software, na Faculdade do Gama da Universidade de Brasília (FGA - Unb) no semestre 2020/2.
