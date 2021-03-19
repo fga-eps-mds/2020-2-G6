@@ -5,6 +5,8 @@
 | 11/03/2021 | 0.1    | Adicionado template               | Gabriel Albino |
 | 11/03/2021 | 1.0    | Adicionando funcionalidades levantadas no lean inception| Gabriel Albino |
 | 12/03/2021 | 1.1    | Incluindo personas nas estórias de usuário | Helena Bretas |
+| 12/03/2021 | 2.0   | Adicionando a previsão da pontuação de cada release | Helena Bretas e Gabriel Albino |
+
 
 ## Épicos
 
@@ -16,30 +18,34 @@
 |EP4|Monitoramento de redes sociais dos parlamentares|
 |EP5|Monitoramento de notícias relacionadas aos parlamentares|
 
-## Features
+## Planejamento de Features e releases
 
-|Épico|#|Descrição|
-|-|-|-|
-|EP1|FE01|Página inicial e elementos transversais|
-||FE02|Sistema de busca|
-||FE03|Perfil do deputado|
-||FE04|Perfil de proposições|
-||FE05|Compartilhamento inteligente|
-||FE06|Parlamentares e projetos relacionados|
-|EP2|FE07|Informações da cota parlamentar|
-||FE08|Informações de crescimento patrimonial|
-||FE09|Analise financeira do parlamentar|
-||FE10|Analise jurídica do parlamentar|
-||FE11|Informações de cargos ocupados na câmara|
-||FE12|Projetos apoiados pelo parlamentar|
-||FE13|Box de curiosidades|
-|EP3|FE14|Analise do perfil de voto do parlamentar|
-||FE15|Projetos votados recentemente|
-|EP4|FE16|Analise de relacionados ao deputado|
-||FE17|Tweets do parlamentar|
-|EP5|FE18|Noticias relacionadas aos parlamentares|
-||FE19|Análise de notícias|
-||FE20|Esclarecimento de fake news|
+Este tópico contém a previsão de pontuação da release 1 utilizada no EVM, assim como a descrição das 
+funcionalidades.
+
+||Release|Épico|#|Pontuação prevista|Descrição|
+|-|-|-|-|-|-|
+||1|EP1|FE01|28|Página inicial e elementos transversais|
+||1||FE02|16|Sistema de busca|
+||1||FE03|16|Perfil do deputado|
+||1||FE04|16|Perfil de proposições|
+||1||FE05|35|Compartilhamento inteligente|
+||6||FE06|-|Parlamentares e projetos relacionados|
+||2|EP2|FE07|-|Informações da cota parlamentar|
+||4||FE08|-|Informações de crescimento patrimonial|
+||6||FE09|-|Analise financeira do parlamentar|
+||5||FE10|-|Analise jurídica do parlamentar|
+||5||FE11|-|Informações de cargos ocupados na câmara|
+||4||FE12|-|Projetos apoiados pelo parlamentar|
+||3||FE13|-|Box de curiosidades|
+||6|EP3|FE14|-|Analise do perfil de voto do parlamentar|
+||1||FE15|27|Projetos votados recentemente|
+||6|EP4|FE16|-|Analise de relacionados ao deputado|
+||2||FE17|-|Tweets do parlamentar|
+||1|EP5|FE18|27|Noticias relacionadas aos parlamentares|
+||6||FE19|-|Análise de notícias|
+||6||FE20|-|Esclarecimento de fake news|
+
 
 ## Estórias
 
@@ -82,5 +88,10 @@
 |EP5|FE18|US34|Eu, Luiz, desejo acesso a uma lista de notícias relacionadas ao parlamentar em seu perfil para saber no que ele está envolvido.|
 |EP5|FE19|US35|Eu, Armim, desejo acesso a um resumo sobre o tipo de notícia que mais sai a respeito de um parlamentar em seu perfil para facilitar minha analise.|
 |EP5|FE20|US36|Eu, Amadeus, desejo acesso ás ultimas notícias falsas desmascaradas por agencias verificadoras envolvendo o parlamentar em seu perfil para que eu fique bem informado.|
+
+
+
+
+
 
 
