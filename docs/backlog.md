@@ -6,6 +6,7 @@
 | 11/03/2021 | 1.0    | Adicionando funcionalidades levantadas no lean inception| Gabriel Albino |
 | 12/03/2021 | 1.1    | Incluindo personas nas estórias de usuário | Helena Bretas |
 | 12/03/2021 | 2.0   | Adicionando a previsão da pontuação de cada release | Helena Bretas e Gabriel Albino |
+| 12/03/2021 | 2.1   | Adicionando estórias de usuário  (37 a 39) | Gabriel Albino |
 
 
 ## Épicos
@@ -61,6 +62,7 @@ funcionalidades.
 |EP1|FE02|US07|Eu, como usuário, desejo acesso a uma página de resultados de busca para ver os projetos e proposições relacionados ao que pesquisei.|
 |EP1|FE02|US08|Eu, Eren, desejo acesso a opções de filtros para refinar a busca.|
 |EP1|FE03|US09|Eu, Eren, desejo acessar o perfil de um deputado para ver suas informações pessoais.|
+|EP1|FE03|US37|Eu, Eren, desejo que o aplicativo busque informações do perfil de deputados a cada dia para que o site tenha informações relevantes|
 |EP1|FE04|US10|Eu, Juliana, desejo acessar uma preposição ou projeto de lei para ver suas informações básicas.|
 |EP1|FE05|US11|Eu, Luiz, desejo conseguir compartilhar as notícias da home para envia-las aos meus amigos.|
 |EP1|FE05|US12|Eu, Luiz, desejo conseguir compartilhar a notícia que se encontra no perfil do deputado para envia-las aos meus amigos.|
@@ -85,7 +87,9 @@ funcionalidades.
 |EP3|FE15|US31|Eu, Juliana, desejo ter acesso aos projetos votados recentemente por um parlamentar em seu perfil para saber se ele está de acordo com o que penso ou não.|
 |EP4|FE16|US32|Eu, Luiz, desejo ter acesso a uma lista de parlamentares relacionados no perfil de um parlamentar a partir de uma analise em sua rede social.|
 |EP4|FE17|US33|Eu, Luiz, desejo ter acesso aos tweets recentes de um deputado em seu perfil para saber o que ele está pensando.|
+|EP4|FE17|US38| Eu, Eren, desejo que o aplicativo busque informações de tweets de deputados a cada 5 minutos para que o site tenha informações relevantes|
 |EP5|FE18|US34|Eu, Luiz, desejo acesso a uma lista de notícias relacionadas ao parlamentar em seu perfil para saber no que ele está envolvido.|
+|EP5|FE18|US39| Eu, Eren, desejo que o aplicativo busque informações de notícias de deputados a cada hora para que o site tenha informações relevantes.|
 |EP5|FE19|US35|Eu, Armim, desejo acesso a um resumo sobre o tipo de notícia que mais sai a respeito de um parlamentar em seu perfil para facilitar minha analise.|
 |EP5|FE20|US36|Eu, Amadeus, desejo acesso ás ultimas notícias falsas desmascaradas por agencias verificadoras envolvendo o parlamentar em seu perfil para que eu fique bem informado.|
 

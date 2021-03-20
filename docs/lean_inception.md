@@ -2,6 +2,10 @@
 
 Todo procedimento do lean inception foi realizado seguindo conforme é explicado no livro **Lean inception: como alinhar pessoas e construir o produto certo** e feito em grupo com os todos os seus integrantes.
 
+### Mural
+
+O lean inception também pode ser acessado no nosso [MURAL](https://app.mural.co/t/fgaepsmds202027717/m/fgaepsmds202027717/1613056560273/9533441f12f6e62a87af9dcb7b08e88ccd14eb01)
+
 ### Ideia
 
 **ODS 16** 
