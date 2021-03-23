@@ -3,9 +3,27 @@
 Os dados desse repositorios foram tranferidos para uma organização onde esta contido a documentação e também o projeto [Parlamentaqui](https://github.com/parlamentaqui).
 
 
+A documentação do projeto pode ser encontrada [clicando aqui](https://github.com/parlamentaqui/documentation).
+
 A organização onde o projeto se encontra pode ser encontrada [clicando aqui](https://github.com/parlamentaqui).
 
-A documentação do projeto pode ser encontrada [clicando aqui](https://github.com/parlamentaqui/documentation).
+## Link para repositorios especificos:
+
+- [Organização](https://github.com/parlamentaqui)
+
+- [Front-end](https://github.com/parlamentaqui/frontend)
+
+- [Gateway](https://github.com/parlamentaqui/gateway)
+
+- [etl_camara](https://github.com/parlamentaqui/etl_camara)
+
+- [etl_news](https://github.com/parlamentaqui/etl_news)
+
+- [etl_twitter](https://github.com/parlamentaqui/etl_twitter)
+
+- [etl_tse](https://github.com/parlamentaqui/etl_tse)
+
+- [db](https://github.com/parlamentaqui/db)
 
 **obs:** o link da lateral referencia a documentação na nova organização.
 
