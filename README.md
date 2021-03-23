@@ -11,6 +11,8 @@ A organização onde o projeto se encontra pode ser encontrada [clicando aqui](h
 
 - [Organização](https://github.com/parlamentaqui)
 
+- [Documentação](https://github.com/parlamentaqui/documentation)
+
 - [Front-end](https://github.com/parlamentaqui/frontend)
 
 - [Gateway](https://github.com/parlamentaqui/gateway)
